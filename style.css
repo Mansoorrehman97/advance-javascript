@@ -1,0 +1,17 @@
+.parentDiv{
+    
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 100px;
+        background-color: green;
+
+}
+.childDiv {
+        width: 200px;
+        border: 15px solid rgb(38, 3, 232);
+        padding: 56px;
+        margin: 10px;
+        margin-left: -17px;
+        background-color: blue;
+}
