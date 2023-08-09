@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Practice</title>
+    <title>go back</title>
   </head>
-
   <body>
-    <div class="parentDiv" id="parentId">
-      <div class="childDiv" id="childId"></div>
-    </div>
-    <script>
-      const parentId = document.getElementById("parentId");
-      const childId = document.getElementById("childId");
-
-      const parentCall = () => {
-        alert("Parent Div Call");
-      };
-
-      const childCall = () => {
-        alert("Child Div Call");
-        event.stopImmediatePropagation();
-      };
-
-      parentId.addEventListener("click", parentCall);
-      childId.addEventListener("click", childCall);
+     <!-- <button class="btn" onclick="goback()">Go Back</button> -->
+    <div id="joke">Here you can read jokes</div>
+    <!-- <p>click will redirect you to the previous visit website</p> -->
+    <script src="script.js"></script>
+    <script> 
+    // alert(location.href)
+    // if (confirm("want to visit?")) {
+    //   location.href = "https://www.facebook.com"
+    // }
+    // function goback() {
+    //   window.history.back()
+    // }
     </script>
   </body>
 </html>
+
+
+<!-- navigate through the DOM
+1: document.document.element
+        return the roor element of the document
+2: document.head
+3: document.body
+4: document.body.childNotes(include tab,enter and whiteSpace)
+        list of the direct children only
+5: document.children (without text nodes,only regular elementS)
+6: document.childNodes.length 
+7: document.body.hasChildNodes()
+-->
+
