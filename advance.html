@@ -8,9 +8,22 @@
   </head>
   <body>
      <!-- <button class="btn" onclick="goback()">Go Back</button> -->
-    <div id="joke">Here you can read jokes</div>
+    <!-- <div id="joke">Here you can read jokes</div> -->
+    <p class="para">Plz like It</p>
+    <p class="para">Plz share this</p>
+    <p id="cng">Dont forget to follow me</p>
+    <h1 id="heading">changed the content of h1</h1> 
     <!-- <p>click will redirect you to the previous visit website</p> -->
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <form action="">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="">
+    </form>
+    <br>
+    <button class="btn" onclick="changeContent()">Click </button>
+    
     <script> 
     // alert(location.href)
     // if (confirm("want to visit?")) {
@@ -19,20 +32,28 @@
     // function goback() {
     //   window.history.back()
     // }
+    const changeContent = ()=>{
+      document.getElementById('heading').innerHTML = "DONE MAN"
+      // document.getElementById('cng').innerHTML = "please like and share it"
+      const a = document.getElementsByClassName('para')
+      for (let i = 0; i< a.length; i++) {
+       a[i].innerHTML = "finally change the class content"
+      }
+    }
     </script>
   </body>
 </html>
 
 
-<!-- navigate through the DOM
-1: document.document.element
-        return the roor element of the document
-2: document.head
-3: document.body
-4: document.body.childNotes(include tab,enter and whiteSpace)
-        list of the direct children only
-5: document.children (without text nodes,only regular elementS)
-6: document.childNodes.length 
-7: document.body.hasChildNodes()
--->
+// <!-- navigate through the DOM
+// 1: document.document.element
+//         return the roor element of the document
+// 2: document.head
+// 3: document.body
+// 4: document.body.childNotes(include tab,enter and whiteSpace)
+//         list of the direct children only
+// 5: document.children (without text nodes,only regular elementS)
+// 6: document.childNodes.length 
+// 7: document.body.hasChildNodes()
+// -->
 

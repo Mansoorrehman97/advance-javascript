@@ -17,7 +17,7 @@
 } */
 
 
-html , body{
+/* html , body{
         height: 100%;
         width: 100%;
 }
@@ -29,27 +29,117 @@ html , body{
         padding: 10px;
         text-align: center;
         width: 100%;
-}
+} */
 
 /* body{
     background-color: aqua; 
 }
-.btn{
-        background-color: rgb(15, 7, 243);
+.buttoncontainer{
+        background-color: rgb(239, 222, 35);
         transition: 400ms;
         margin-left: 550px;
         color: antiquewhite;
         height: 35px;
-        width: 94px;
+        width: 194px;
         border-radius: 15px;
         outline: none;
         border: none;
         box-shadow: 0px -1px 8px 4px;
         cursor: pointer;
 }
-p{
+p,form{
         text-align: center;
         color: rgba(175, 47, 47, 0.8);
         font-size: 300%;
         margin: 0;
+}
+/* h1{
+        text-align: center;
+        margin-top: 72px;
+}
+.btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 7px;
+}
+.buttontextcontainer{
+        color: rgb(0, 0, 0);
 } */
+
+
+/* Reset some default styles and apply a basic responsive setup */
+ /* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+      } */
+      
+      /* Main heading */
+      /* h1 {
+        text-align: center;
+        margin: 20px 0;
+      } */
+      
+      /* Button container */
+      /* .buttoncontainer {
+        text-align: center;
+        margin: 10px;
+      } */
+      
+      /* Buttons */
+      /* .btn {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(239, 222, 35);
+        color: antiquewhite;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 4px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      } */
+      
+      /* Button text */
+      /* .buttontextcontainer {
+        color: rgb(0, 0, 0);
+      }
+       */
+      /* Media queries for responsiveness */
+      /* @media (max-width: 768px) { */
+        /* Adjust button container alignment for smaller screens */
+        /* .buttoncontainer {
+          margin: 10px auto;
+        }
+       */
+        /* Reduce button padding and font size for smaller screens */
+        /* .btn {
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+      }
+       */
+
+
+.box{
+        width: 30px;
+        border: 15px solid green;
+        padding: 20px;
+        margin: 50px;
+        background-color: green;
+}
+
+p,form{
+        text-align: center;
+        color: rgba(175, 47, 47, 0.8);
+        font-size: 300%;
+        margin: 0;
+}
+.in{
+        text-align: center;
+}

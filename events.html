@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Events</title>
+  </head>
+  <body>
+    <!-- <div class="box" id="box" onmouseenter="mouseenter()" onmouseleave="mouseleave()"></div> -->
+
+    <!-- <p>to occur a function please press any button</p>
+    <br />
+    <div class="in"><input id="box" type="text" onkeypress="keyPress()" /></div> -->
+    <!-- <script>
+        function mouseenter() {
+            document.getElementById("box").style.backgroundColor = 'red'
+        }
+        function mouseleave() {
+            document.getElementById("box").style.backgroundColor = 'blue'
+        }
+    </script> -->
+    <!-- <p id="pa" onmousedown="mouseDown()" onmouseup="mouseUp()">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, soluta
+      maxime. At velit porro consequuntur quam odio dolorum non eum est impedit!
+      Odio molestias, est tempora deserunt earum nostrum? At.
+    </p>
+    <script> 
+    function mouseDown() {
+        document.getElementById("pa").style.color = "red"
+    }
+    function mouseUp() {
+        document.getElementById("pa").style.color = "blue"
+    }
+    </script> -->
+    <!-- <p id="key"></p>
+    <script>
+      function keyPress() {
+        document.getElementById(
+          "key"
+        ).innerHTML = `you press ${event.key} and it's code is ${event.code} `;
+      }
+    </script> -->
+  </body>
+</html>
+
+<!-- <div>
+      <h1>Differents Events Types In JavaScript</h1>
+      <div class="buttoncontainer">
+        <a href="#" class="btn" onmouseover="alert('Useless one')">
+          <span class="buttontextcontainer">simple inline alert()</span></a
+        >
+      </div>
+      <br />
+      <div class="buttoncontainer">
+        <a href="#" class="btn" ondblclick="callingFunction()">
+          <span class="buttontextcontainer">By Calling a Function</span></a
+        >
+      </div>
+      <br />
+      <div class="buttoncontainer">
+        <a href="#" class="btn" id="third">
+          <span class="buttontextcontainer">Inline event</span></a
+        >
+      </div>
+      <br />
+      <div class="buttoncontainer">
+        <a href="#" class="btn" id="fourth">
+          <span class="buttontextcontainer">Event Listners</span></a
+        >
+      </div> -->
+<!-- <div class="buttoncontainer">
+        <a href="#" class="btn" onclick="('Useless one')">
+        <span class="buttontextcontainer">simple inline alert()</span></a>
+    </div><br>
+    <div class="buttoncontainer">
+        <a href="#" class="btn" ondblclick="alert('Useless one')">
+        <span class="buttontextcontainer">simple inline alert()</span></a>
+    </div> -->
+<!-- </div>
+    <script>
+      const callingFunction = () => {
+        return confirm("done by function?");
+      };
+
+      const third = document.getElementById("third");
+      third.onclick = function () {
+        prompt("is it done by inline event");
+        console.log(third.onclick);
+        console.log(event);
+        console.log(event.target);
+        console.log(event.type);
+      };
+
+      const fourth = document.querySelector("#fourth");
+      fourth.addEventListener("contextmenu", () => {
+        prompt("do you like to use event listner");
+        console.log(event);
+        console.log(event.target);
+        console.log(event.type);
+      }); -->
+
+<!-- </script> -->
